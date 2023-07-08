@@ -15,33 +15,43 @@ function About() {
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-        <ScrollAnimation animateIn="fadeInLeft">
-          <Image
-            src="/man-svgrepo-com.svg"
-            alt="man-svgrepo"
-          />
-        </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInLeft">
+            <Image src="/man-svgrepo-com.svg" alt="man-svgrepo" />
+          </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Anurag DOngre</strong>. I'm originally from India and have been living in Canada for the past three years. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
+              Hello! My name is <strong>Anurag DOngre</strong>. I am a dedicated
+              and passionate frontend developer, committed to creating engaging
+              and user-friendly websites. I recently completed an extensive
+              course in frontend development from ineuron.ai, gaining valuable
+              skills and hands-on experience in the latest web technologies.
             </ScrollAnimation>
 
-            <br /><br />
-            
+            <br />
+            <br />
+
             <ScrollAnimation animateIn="fadeInLeft">
-            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-            Throughout my studies at BCIT, I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the RENR Safety App and MyMind, projects that garnered recognition from my colleagues, instructors, and clients alike.
+              Throughout my journey, I have developed a keen eye for aesthetics
+              and a deep understanding of user experience principles. My goal is
+              to craft visually appealing and intuitive interfaces that not only
+              captivate users but also provide them with a seamless browsing
+              experience. I believe in making the web more accessible and
+              enjoyable for everyone
             </ScrollAnimation>
 
-            <br /><br />
+            <br />
+            <br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
+              I'm a frontend developer with a passion for fitness. I bring
+              discipline and determination from the gym to my work, striving for
+              excellence. I stay updated on frontend trends and love learning
+              new concepts. Let's collaborate on impactful projects and create
+              exceptional web experiences.
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
             </ScrollAnimation>
-            
 
             <Technologies>
               {stackList.map((stack, index) => (
@@ -54,7 +64,6 @@ function About() {
               ))}
             </Technologies>
           </div>
-
         </div>
       </div>
     </ContactWrapper>

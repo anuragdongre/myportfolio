@@ -3,13 +3,13 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
   return (
-    <div className="Container" style={{padding: 0}}>
+    <div className="Container" style={{ padding: 0 }}>
       <Nav>
         <Logo to="/">
-          <img
-            src="/logo.png"
+          {/* <img
+            src="/"
             alt="logo"
-          />
+          /> */}
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects">
@@ -25,7 +25,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://linkedin.com/in/pedro-sales-muniz"
+            href="https://drive.google.com/file/d/19ggUh_yx1TZ0LcmMFD5PpAW8b_RIlL75/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
