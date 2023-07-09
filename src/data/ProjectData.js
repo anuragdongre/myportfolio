@@ -8,22 +8,22 @@ export const ProjectList = [
     github_url: "https://github.com/anuragdongre/slack-clone-0",
     demo_url: "https://magical-fudge-f7f55e.netlify.app/",
   },
-  {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
-    description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ['HTML', 'CSS', 'NodeJs', 'MongoDB', 'SocketIo'],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
-  },
+  // {
+  //   img: "/mymind-responsive.png",
+  //   title: "MyMind",
+  //   description:
+  //     "An app where users can purchase online therapy sessions and chat with their therapists.",
+  //   tech_stack: ['HTML', 'CSS', 'NodeJs', 'MongoDB', 'SocketIo'],
+  //   github_url: "https://github.com/salesp07/MyMind---Copy",
+  //   demo_url: "https://mymindweb.vercel.app/",
+  // },
   {
     img: "/Screenshot_20230210_134203.png",
-    title: "Pokedex",
-    description: "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ['ReactJs', 'NodeJs', 'MongoDB'],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
+    title: "Shopping Cart",
+    description: "Simplify your online shopping experience with the user-friendly Shopping Cart app.",
+    tech_stack: ['ReactJs', 'Redux',],
+    github_url: "https://github.com/anuragdongre/shoppingcart",
+    demo_url: "https://gentle-arithmetic-8efaa2.netlify.app/",
   },
   {
     img: "/Screenshot 2023-07-06 012505.png",
