@@ -8,41 +8,41 @@ import {
   TechName,
   ContactWrapper,
 } from "./AboutElements";
-import ScrollAnimation from "react-animate-on-scroll";
+// import div from "react-animate-on-scroll";
 function About() {
   return (
     <ContactWrapper id="about">
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-          <ScrollAnimation animateIn="fadeInLeft">
+          <div animateIn="fadeInLeft">
             <Image src="/man-svgrepo-com.svg" alt="man-svgrepo" />
-          </ScrollAnimation>
+          </div>
           <div className="AboutBio">
-            <ScrollAnimation animateIn="fadeInLeft">
+            <div animateIn="fadeInLeft">
               Hello! My name is <strong>Anurag DOngre</strong>. I am a dedicated
               and passionate frontend developer, committed to creating engaging
               and user-friendly websites. I recently completed an extensive
               course in frontend development from ineuron.ai, gaining valuable
               skills and hands-on experience in the latest web technologies.
-            </ScrollAnimation>
+            </div>
 
             <br />
             <br />
 
-            <ScrollAnimation animateIn="fadeInLeft">
+            <div animateIn="fadeInLeft">
               Throughout my journey, I have developed a keen eye for aesthetics
               and a deep understanding of user experience principles. My goal is
               to craft visually appealing and intuitive interfaces that not only
               captivate users but also provide them with a seamless browsing
               experience. I believe in making the web more accessible and
               enjoyable for everyone
-            </ScrollAnimation>
+            </div>
 
             <br />
             <br />
 
-            <ScrollAnimation animateIn="fadeInLeft">
+            <div animateIn="fadeInLeft">
               I'm a frontend developer with a passion for fitness. I bring
               discipline and determination from the gym to my work, striving for
               excellence. I stay updated on frontend trends and love learning
@@ -51,16 +51,16 @@ function About() {
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
-            </ScrollAnimation>
+            </div>
 
             <Technologies>
               {stackList.map((stack, index) => (
-                <ScrollAnimation animateIn="fadeInLeft" key={index}>
+                <div animateIn="fadeInLeft" key={index}>
                   <Tech key={index} className="tech">
                     <TechImg src={stack.img} alt={stack.name} />
                     <TechName>{stack.name}</TechName>
                   </Tech>
-                </ScrollAnimation>
+                </div>
               ))}
             </Technologies>
           </div>
